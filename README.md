@@ -20,5 +20,5 @@
 
 <img width="400" height="250" alt="Ekran Resmi 2023-12-21 01 06 57" src="https://github.com/tugbagulertg/MemoryGame/assets/102370994/a159ea2a-eb2e-49e7-bea6-d0632e2081ee">
 <img width="400" height="250" alt="Ekran Resmi 2023-12-21 01 03 35" src="https://github.com/tugbagulertg/MemoryGame/assets/102370994/0bbcf98b-63a8-471c-89b5-f6e5b7ab35d0">
-<img width="400" height="250 alt="Ekran Resmi 2023-12-21 01 11 30" src="https://github.com/tugbagulertg/MemoryGame/assets/102370994/d0451314-60a0-49a9-a03b-bf204df2669b">
 <img width="400" height="250" alt="Ekran Resmi 2023-12-21 01 12 52" src="https://github.com/tugbagulertg/MemoryGame/assets/102370994/36d139da-7fb1-4b5d-8c8d-d5a2333622a5">
+<img width="400" height="250 alt="Ekran Resmi 2023-12-21 01 11 30" src="https://github.com/tugbagulertg/MemoryGame/assets/102370994/d0451314-60a0-49a9-a03b-bf204df2669b">
