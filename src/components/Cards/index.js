@@ -88,7 +88,7 @@ function Cards({ check, setCheck }) {
           }
           ${
             mode === "hard" &&
-            "max-[374px]:w-[65px] w-[70px] sm:w-[90px] md:w-[85px] lg:w-[100px] xl:w-[120px]  max-[374px]:h-[65px] h-[70px] sm:h-[90px] md:h-[85px]lg:h-[100px]  xl:h-[120px]"
+            "max-[374px]:w-[65px] w-[70px] sm:w-[90px] md:w-[85px] lg:w-[110px] max-[374px]:h-[65px] h-[70px] sm:h-[90px] md:h-[85px] lg:h-[110px] "
           }
 }
               ${card.isOpen === true ? "flipped" : ""}`}

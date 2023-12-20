@@ -17,7 +17,7 @@ function Navbar({ setCheck }) {
   return (
     <div
       id="navbar"
-      className="flex justify-between  pt-2 z-20 w-full top-0 left-0 z-20 px-5 sm:px-20"
+      className="flex justify-between  pt-2 z-20 w-full top-0 left-0 z-20 px-5 sm:px-20 xl:px-44"
     >
       <NavLink to={"/"}>
         <button

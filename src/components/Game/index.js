@@ -12,7 +12,7 @@ function Game() {
   const [showModal, setShowModal] = useState(false);
 
   const cards = useSelector((state) => state.memory.items);
-  const matched = useSelector((state) => state.memory.matched);
+  const matchedCount = useSelector((state) => state.memory.matchedCount);
   const flipCount = useSelector((state) => state.memory.flipCount);
   const mode = useSelector((state) => state.memory.mode);
 
@@ -23,14 +23,14 @@ function Game() {
       dispatch(start());
     }
     setCheck([]);
-  }, [dispatch, matched, mode, flipCount]);
+  }, [dispatch, matchedCount, mode, flipCount]);
 
   useEffect(() => {
-    if (matched * 2 === cards.length) {
+    if (matchedCount * 2 === cards.length) {
       dispatch(stop());
       setShowModal(true);
     }
-  }, [dispatch, matched, cards.length, mode]);
+  }, [dispatch, matchedCount, cards.length, mode]);
 
   return (
     <div className="text-center min-h-screen  bg-[#93B1A6] flex flex-col justify-between  ">

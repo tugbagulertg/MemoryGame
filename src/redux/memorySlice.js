@@ -30,7 +30,7 @@ export const memorySlicer = createSlice({
       } else if (state.mode === "medium") {
         state.items = shuffle(medium.concat(medium));
       }
-      state.matched = 0;
+      state.matchedCount = 0;
       state.point = 0;
       state.flipCount = 0;
       state.min = 0;
@@ -45,22 +45,19 @@ export const memorySlicer = createSlice({
       openClose.isOpen = !openClose.isOpen;
     },
     match: (state, action) => {
-      const isMatched = state.items.find((item) => item.id === action.payload.id);
+      const isMatched = state.items.find(
+        (item) => item.id === action.payload.id
+      );
       isMatched.isMatched = !isMatched.isMatched;
     },
     increase: (state) => {
-      state.matched += 1;
+      state.matchedCount += 1;
       state.point += 50;
       state.flipCount += 1;
-
-      console.log(state.point);
-      console.log(state.matched);
     },
     decrease: (state) => {
       state.point -= 10;
       state.flipCount += 1;
-      console.log(state.point);
-      console.log(state.matched);
     },
     start: (state) => {
       state.timeRunning = true;
