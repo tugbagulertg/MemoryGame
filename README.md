@@ -12,7 +12,7 @@
   <li>UseEffect</li>
   <li>Redux</li>
   <li>Redux Toolkit</li>
-  <li>Tailwindcss</li>
+  <li>Tailwind CSS</li>
   <li>React Router Dom</li>
   <li>Responsive Design</li>
 </ul>
